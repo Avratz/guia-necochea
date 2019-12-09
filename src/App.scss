@@ -8,8 +8,15 @@ $default-padding: 15px;
 	box-sizing: border-box;
 }
 
+body{
+	margin: auto;
+}
+
 .container {
-	padding: 0 $default-padding;
+	padding: 0 $default-padding!important;
+	width: 1200px;
+	margin-left:auto!important;
+	margin-right: auto!important;
 }
 
 .container-fluid {
