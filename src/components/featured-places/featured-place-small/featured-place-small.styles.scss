@@ -1,0 +1,24 @@
+.featured-place-small{
+    width: 48%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 32px;
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    a{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:22px;
+        color:white;
+        z-index: 99;
+        padding: 0 0 60px 30px;
+        &:after{
+            content: '  >';
+            font-weight: 100;
+        }
+    }
+}
