@@ -3,11 +3,11 @@ import React from 'react'
 import FeaturedPlaceWide from './featured-place-wide/featured-place-wide.component'
 import FeaturedPlaceSmall from './featured-place-small/featured-place-small.component'
 
-import './featured-places.styles.scss'
+import './featured-places-section.styles.scss'
 
-export default function Places() {
+export default function FeaturedPlacesSection() {
 	return (
-		<section className="places container">
+		<section className="featured-places container">
 			<h2 className="h2-home">Lugares Destacados</h2>
 			<FeaturedPlaceWide 
 				imgUrl="https://www.diario4v.com/u/fotografias/fotosnoticias/2019/8/3/30199.jpg" 
